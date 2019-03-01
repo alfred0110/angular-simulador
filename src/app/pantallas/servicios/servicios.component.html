@@ -1,0 +1,19 @@
+<div class="tituloPantalla">
+  SELECCIONE EL SERVICIO
+</div>
+
+<div class="servicios">
+  <div *ngFor= "let servicio of servicios" (click)="siguientePantalla(servicio.servicioId)" class="divPadre"> 
+      <div class="divHijo">
+          <div class="out">
+              <div class= "in">
+                  <img src="assets/servicios/servicio-{{servicio.servicioId}}.png">
+              </div>
+            </div>    
+      </div>
+      <p>{{ servicio.descripcion }}</p>
+    </div>
+</div>
+
+
+<app-botonera [ocultarBtnAceptar]= true ></app-botonera>

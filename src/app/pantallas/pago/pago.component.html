@@ -1,0 +1,38 @@
+<div class="tituloPantalla">
+    INGRESE EL EFECTIVO
+</div>
+
+<div class="contenido">
+
+    <div class= "importe">
+        <div >Importe a pagar:</div>
+        <div >{{montoApagar | currency }}</div>
+
+        <div>Importe recibido:</div>
+        <div>{{montoRecibido  | currency}}</div>
+
+        <div>Importe pendiente:</div>
+        <div>{{montoPendiente | currency }}</div>
+
+    </div>
+
+    <div class="billetes">
+        <div>
+            <div><img (click)="InsertaBillete(20)" src="assets/comun/billetes/billete20.png"></div>
+            <div><img (click)="InsertaBillete(50)" src="assets/comun/billetes/billete50.png"></div>
+            <div><img (click)="InsertaBillete(100)" src="assets/comun/billetes/billete100.png"></div>
+            <div><img (click)="InsertaBillete(200)" src="assets/comun/billetes/billete200.png"></div>
+            <div><img (click)="InsertaBillete(500)" src="assets/comun/billetes/billete500.png"></div>    
+        </div>
+    </div>
+
+</div> 
+
+
+<div class="botones">
+    <div class="out">
+        <div class= "in">
+            <img (click)="cancelaOperacion(0)" src="assets/botones/BTN_Cancelar.png">
+        </div>
+    </div>
+</div>

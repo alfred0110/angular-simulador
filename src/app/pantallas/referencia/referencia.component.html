@@ -1,0 +1,22 @@
+
+
+<div>
+    <div class="out">
+        <div class= "in">
+            <img src="assets/servicios/servicio-{{servicioId}}.png">
+        </div>
+    </div>   
+
+
+    <div class="datos-contenedor">
+            <div class="tituloPantalla">
+                    CAPTURE LA REFERENCIA
+                </div>
+        <div class="datos">
+            <input maxlength="16" (input)="establecerReferencia($event.target.value)" />
+        </div>
+    
+    </div>
+</div>
+
+<app-botonera></app-botonera>

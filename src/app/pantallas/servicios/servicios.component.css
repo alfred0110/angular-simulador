@@ -1,0 +1,46 @@
+
+.divPadre{
+    background:#8B2044;
+    border-radius: 25px 0 15px 35px;
+    -webkit-box-shadow: 0 10px 5px #5C1B34;
+    -moz-box-shadow: 0 10px 5px#5C1B34;
+    box-shadow: 0 10px 5px #5C1B34;
+}
+
+.divHijo{
+    background:white;
+    border-radius: 15px 0 15px 35px;
+    -webkit-box-shadow: 0 5px 5px #5C1B34;
+    -moz-box-shadow: 0 5x 5px#5C1B34;
+    box-shadow: 0 5px 5px #5C1B34;
+    height: 80%;
+}
+
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servicios > div{
+    flex: 1;
+    height: 100px;
+    margin: 20px;
+}
+
+.servicios p{
+    text-align: center;
+    color:whitesmoke;
+}
+
+.divHijo .out{  
+    width: 100%;
+    padding: 5px;
+}
+
+.divHijo .in{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+

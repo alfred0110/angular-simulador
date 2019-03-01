@@ -1,0 +1,17 @@
+ng build --prod
+
+ng build --prod --base-href /simulador/
+
+ng add @angular/pwa
+
+
+------------------------------------------------------------
+EDIT CONFIG GIT:
+
+ git config --edit --global
+
+ git clone
+ git add .
+ git commit -m "Cambio Notas"
+ git push
+ 

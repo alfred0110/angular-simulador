@@ -1,0 +1,55 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.ticket { 
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: white; 
+}
+
+.contenedor > div:first-child, 
+.contenedor > div:last-child{
+    flex: 1;  
+}
+
+.contenedor > div{
+    flex: 3;   
+    text-align: center;
+    padding: 1em;
+}
+
+.titulo{
+    font-size: 170%;
+}
+.datos{
+    display:flex;
+    font-size: 75%;
+}
+
+.datos div{
+    flex:1;
+}
+
+.desglose hr{
+    border-top: medium double #333;
+    color: #333;
+    font-size:1.5em;
+}
+.desglosePago {
+    display:flex;
+    font-size: 90%;
+    font-weight:bold;
+}
+
+.desglosePago div{
+    flex:1;
+}
+.despedida{
+    font-size:75%;
+}

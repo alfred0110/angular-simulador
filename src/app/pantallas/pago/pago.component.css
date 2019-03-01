@@ -1,0 +1,81 @@
+.botones{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+}
+
+.botones .in{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones img{
+    height: 100%;  
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   
+    width: 100%;
+    height: calc(100% - 200px);
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+
+}
+
+.pagoEfectivo > div{
+    flex: 1;
+    padding: 20px;
+}
+
+.importe{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;    
+
+    background-color: whitesmoke;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 10px 5px #5C1B34;
+    -moz-box-shadow: 0 10px 5px#5C1B34;
+    box-shadow: 0 10px 5px #5C1B34; 
+
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.importe div{
+    flex: 50%;    
+}
+
+.importe div:nth-child(2n + 1){
+    font-size: 1.2em;
+    color: gray;
+}
+
+.importe div:nth-child(2n){
+    font-size: 1.5em;
+    font-size: bold;
+}
+
+.billetes{
+     
+}
+
+.billetes div{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.billetes img{
+    width: 100px;
+    height: 50%;
+   
+}

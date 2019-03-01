@@ -1,0 +1,25 @@
+.titulo{
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+}
+
+.out{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.home{
+    position: absolute;
+    right: 1em;
+}
+
+.home i{
+    font-size: 1.5em;
+    float: right;
+    padding: 0.3em;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+<div class="contenedor">
+  <div></div>
+  <div class = "ticket">
+    <p class="titulo">PAGO DE SERVICIOS</p>
+
+    <hr/>
+    <div class="datos"> 
+      <div>
+        <p>FECHA:<br>{{today | date:'dd/MM/yy'}}</p>  
+      </div>
+
+      <div>
+        <p>HORA:<br>{{today | date:'H:mm' }}</p>    
+      </div>
+      
+      <div>
+        <p>CAJERO:<br> MN0102</p>  
+      </div>
+    </div>
+    <hr class="desglose">
+    <div class="desglosePago"> 
+        <div>
+          <p>Concepto:<br>{{servicio}}</p>  
+        </div>
+  
+        <div>
+          <p>Saldo:<br>{{montoApagar}}</p>    
+        </div>
+        
+        <div>
+          <p>Pago:<br>{{montoRecibido}}</p>  
+        </div>
+      </div>
+    <p></p>
+    <p>Cambio: {{montoPendiente}}</p>
+    <br/>
+    <hr/>
+    <br/>
+    <div class="despedida">GRACIAS POR SU PAGO</div>
+  </div> 
+  <div></div>
+</div>
+
+

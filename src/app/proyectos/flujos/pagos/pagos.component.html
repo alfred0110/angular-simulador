@@ -1,0 +1,35 @@
+
+<div class="encabezado encabezado-{{proyectoId}}">
+
+    <div class="forma-encabezado"></div>
+    
+   
+    <div class="titulo">   
+        <div><p>{{titulo}}</p></div>
+       
+      </div>
+    
+    <div class="logo" (click) = "mostrarInicio()">
+      <div class="out">
+        <div class= "in">
+            <img src="assets/logos/logo-{{proyectoId}}.png">
+        </div>
+      </div>       
+    </div>   
+  </div>
+
+  <div style="display: flex;height: calc(100% - 149px);width: 100%;">
+    <div class="pasos">
+        <app-botonpaso *ngFor="let paso of lstPasos" [pasoId]="paso.id" [descripcion] = "paso.descripcion" [celdaActiva]="paso.estatus"></app-botonpaso>
+
+        <!--<app-botonpaso [pasoId]=5 [descripcion]="'Impresión de Ticket'" [celdaActiva]=false></app-botonpaso>-->
+      </div>    
+    <div class="flujo">
+      <router-outlet></router-outlet>
+    </div>
+</div>
+
+<div class="footer">
+  <div>TKINOV SA. DE CV.</div>
+  <div>V 1.0</div>
+</div>

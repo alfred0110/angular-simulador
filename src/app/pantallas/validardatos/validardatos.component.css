@@ -1,0 +1,30 @@
+.datos-contenedor{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.datos{
+    display: flex; 
+    flex-wrap: wrap;   
+    padding: 2em;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 10px 5px #5C1B34;
+    -moz-box-shadow: 0 10px 5px#5C1B34;
+    box-shadow: 0 10px 5px #5C1B34;   
+}
+
+.datos div{
+    flex: 50%;
+}
+
+.datos div:nth-child(2n + 1){
+    font-size: 1.5em;
+    color: gray;
+}
+
+.datos div:nth-child(2n){
+    font-size: 1.5em;
+    font-size: bold;
+}

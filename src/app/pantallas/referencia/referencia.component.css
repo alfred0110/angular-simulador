@@ -1,0 +1,32 @@
+.datos-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+.datos{
+    max-width: 650px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+
+}
+input{
+    border: none;   
+    margin: 0 auto;
+    font-size: 2.5em;    
+    text-align: center;
+    width: 100%;
+}
+
+
+.out{  
+    position: absolute;
+    top: -110px;
+    right: 125px;
+}
+

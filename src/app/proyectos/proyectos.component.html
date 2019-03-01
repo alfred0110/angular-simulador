@@ -1,0 +1,16 @@
+<div class="root">
+  <div>
+      <p>
+          LISTA DE PROYECTOS
+        </p>
+        <hr/>
+  </div>
+
+  <div>
+      <ol>
+          <li *ngFor= "let proyecto of proyectos" id={{proyecto.id}} (click)="Ejecutar(proyecto.id)">{{ proyecto.descripcion }}</li>
+        </ol>
+        <hr/>
+  </div>
+  
+</div>
