@@ -13,5 +13,8 @@ EDIT CONFIG GIT:
  git clone
  git add .
  git commit -m "Cambio Notas"
- git push
  
+----------------------
+ git remote add simulador https://github.com/alfred0110/angular-simulador.git
+ git push simulador master
+ ----------------------
