@@ -30,3 +30,7 @@ input{
     right: 125px;
 }
 
+ 
+  .simple-keyboard {
+    max-width: 850px;
+  }

@@ -12,10 +12,10 @@
             <div class="tituloPantalla">
                     CAPTURE LA REFERENCIA
                 </div>
-        <div class="datos">
-            <input maxlength="16" (input)="establecerReferencia($event.target.value)" />
+        <div class="datos">            
+            <input (input)="onInputChange($event)" class="input" value={{value}} placeholder="Tap on the virtual keyboard to start"  />           
         </div>
-    
+        <div class="simple-keyboard"></div>
     </div>
 </div>
 
